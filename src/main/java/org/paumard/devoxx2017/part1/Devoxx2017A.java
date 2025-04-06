@@ -14,7 +14,7 @@ public class Devoxx2017A {
         Set<Article> articles = Article.readAll();
         System.out.println("articles read = " + articles.size());
 
-
+        int y= Integer.compare(1, 2);
         long count = articles.stream()
                 .collect(Collectors.counting());
 //                .count();
